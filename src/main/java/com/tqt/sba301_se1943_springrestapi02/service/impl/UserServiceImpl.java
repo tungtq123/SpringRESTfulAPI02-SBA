@@ -1,0 +1,57 @@
+package com.sba301.service.impl;
+
+import com.sba301.dto.UserDTO;
+import com.sba301.entity.User;
+import com.sba301.repository.UserRepository;
+import com.sba301.service.UserService;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+@Service
+public class UserServiceImpl implements UserService {
+    private UserRepository userRepository;
+    public UserServiceImpl(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    @Override
+    public UserDTO getUser(String username) {
+        return null;
+    }
+
+    @Override
+    public UserDTO createUser(UserDTO userDTO) {
+        return null;
+    }
+
+    @Override
+    public UserDTO updateUser(String username, UserDTO userDTO) {
+        return null;
+    }
+
+    @Override
+    public int deleteUser(String username) {
+        return 0;
+    }
+
+    @Override
+    public UserDTO login(String username, String password) {
+        return null;
+    }
+
+    @Override
+    public List<UserDTO> getAllUsers() {
+        List<User> users = userRepository.findAll();
+        if (users.isEmpty()) {
+            return List.of();
+        }
+        return users.stream().map(user -> new UserDTO(
+                user.getUserId(),
+                user.getUsername(),
+                user.getPassword(),
+                user.getEmail(),
+                user.getRole().getId(),
+                user.getRole().getName()
+        )).toList();
+    }
+}
