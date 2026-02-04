@@ -1,4 +1,4 @@
-package com.sba301.config;
+package com.tqt.sba301_se1943_springrestapi02.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,4 +1,4 @@
-package com.sba301.entity;
+package com.tqt.sba301_se1943_springrestapi02.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.sba301.controller;
+package com.tqt.sba301_se1943_springrestapi02.controller;
 
 import com.sba301.dto.ProductDTO;
 import com.sba301.service.ProductService;
@@ -13,9 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @RequestMapping("/api/products")
 @RestController

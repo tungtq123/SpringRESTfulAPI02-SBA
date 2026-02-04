@@ -1,4 +1,4 @@
-package com.sba301.repository;
+package com.tqt.sba301_se1943_springrestapi02.repository;
 
 import com.sba301.entity.Product;
 import org.springframework.data.domain.Page;

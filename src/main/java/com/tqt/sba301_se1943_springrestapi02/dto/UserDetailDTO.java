@@ -1,4 +1,4 @@
-package com.sba301.dto;
+package com.tqt.sba301_se1943_springrestapi02.dto;
 
 import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.GrantedAuthority;

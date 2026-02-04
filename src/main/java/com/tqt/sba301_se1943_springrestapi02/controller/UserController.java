@@ -1,4 +1,4 @@
-package com.sba301.controller;
+package com.tqt.sba301_se1943_springrestapi02.controller;
 
 import com.sba301.dto.UserDTO;
 import com.sba301.dto.UserDetailDTO;

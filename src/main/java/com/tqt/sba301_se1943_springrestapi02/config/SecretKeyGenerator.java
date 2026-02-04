@@ -1,4 +1,4 @@
-package com.sba301.config;
+package com.tqt.sba301_se1943_springrestapi02.config;
 
 import java.security.SecureRandom;
 import java.util.Base64;

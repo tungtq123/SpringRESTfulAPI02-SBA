@@ -1,4 +1,4 @@
-//package com.sba301.config;
+package com.tqt.sba301_se1943_springrestapi02.config;//package com.sba301.config;
 //
 //import jakarta.servlet.http.HttpServletRequest;
 //import org.springframework.context.annotation.Bean;

@@ -1,6 +1,4 @@
-package com.sba301.config;
-
-import org.springframework.boot.CommandLineRunner;
+package com.tqt.sba301_se1943_springrestapi02.config;
 
 public class CategoryInitializer {
 }

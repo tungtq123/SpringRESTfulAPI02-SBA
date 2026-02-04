@@ -1,6 +1,5 @@
-package com.sba301.dto;
+package com.tqt.sba301_se1943_springrestapi02.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;

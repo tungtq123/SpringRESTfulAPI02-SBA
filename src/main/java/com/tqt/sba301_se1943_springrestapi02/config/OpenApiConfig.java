@@ -1,4 +1,4 @@
-package com.sba301.config;
+package com.tqt.sba301_se1943_springrestapi02.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
