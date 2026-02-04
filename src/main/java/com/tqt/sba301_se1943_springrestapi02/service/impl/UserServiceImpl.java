@@ -1,9 +1,9 @@
 package com.tqt.sba301_se1943_springrestapi02.service.impl;
 
-import com.sba301.dto.UserDTO;
-import com.sba301.entity.User;
-import com.sba301.repository.UserRepository;
-import com.sba301.service.UserService;
+import com.tqt.sba301_se1943_springrestapi02.dto.UserDTO;
+import com.tqt.sba301_se1943_springrestapi02.entity.User;
+import com.tqt.sba301_se1943_springrestapi02.repository.UserRepository;
+import com.tqt.sba301_se1943_springrestapi02.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

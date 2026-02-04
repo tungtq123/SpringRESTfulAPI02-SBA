@@ -1,7 +1,7 @@
 package com.tqt.sba301_se1943_springrestapi02.controller;
 
-import com.sba301.dto.ProductDTO;
-import com.sba301.service.ProductService;
+import com.tqt.sba301_se1943_springrestapi02.dto.ProductDTO;
+import com.tqt.sba301_se1943_springrestapi02.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.*;

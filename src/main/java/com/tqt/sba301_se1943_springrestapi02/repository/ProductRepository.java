@@ -1,6 +1,6 @@
 package com.tqt.sba301_se1943_springrestapi02.repository;
 
-import com.sba301.entity.Product;
+import com.tqt.sba301_se1943_springrestapi02.entity.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

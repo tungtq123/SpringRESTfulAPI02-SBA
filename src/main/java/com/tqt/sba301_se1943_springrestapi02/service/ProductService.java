@@ -1,6 +1,7 @@
 package com.tqt.sba301_se1943_springrestapi02.service;
 
-import com.sba301.dto.ProductDTO;
+
+import com.tqt.sba301_se1943_springrestapi02.dto.ProductDTO;
 
 import java.util.List;
 

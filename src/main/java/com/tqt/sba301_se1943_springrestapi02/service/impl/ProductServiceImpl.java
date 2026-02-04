@@ -1,11 +1,11 @@
 package com.tqt.sba301_se1943_springrestapi02.service.impl;
 
-import com.sba301.dto.ProductDTO;
-import com.sba301.entity.Category;
-import com.sba301.entity.Product;
-import com.sba301.repository.CategoryRepository;
-import com.sba301.repository.ProductRepository;
-import com.sba301.service.ProductService;
+import com.tqt.sba301_se1943_springrestapi02.dto.ProductDTO;
+import com.tqt.sba301_se1943_springrestapi02.entity.Category;
+import com.tqt.sba301_se1943_springrestapi02.entity.Product;
+import com.tqt.sba301_se1943_springrestapi02.repository.CategoryRepository;
+import com.tqt.sba301_se1943_springrestapi02.repository.ProductRepository;
+import com.tqt.sba301_se1943_springrestapi02.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

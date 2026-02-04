@@ -1,6 +1,6 @@
 package com.tqt.sba301_se1943_springrestapi02.repository;
 
-import com.sba301.entity.User;
+import com.tqt.sba301_se1943_springrestapi02.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

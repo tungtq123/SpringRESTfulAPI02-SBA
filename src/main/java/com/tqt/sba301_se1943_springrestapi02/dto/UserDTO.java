@@ -10,7 +10,7 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-public class UserDTO implements UserDetails {
+public class UserDTO  {
     private int userId;
     private  String username;
     private String password;
